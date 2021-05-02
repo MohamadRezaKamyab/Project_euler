@@ -1,15 +1,15 @@
 #! /usr/bin/python3
 
 def main():
-    print(sum(4000000))
+    print(Sum(4000000))
 
-def sum(n):
+def Sum(n):
     counter = 1;
-    sum = 0
+    summation = 0
     while Even_Fibonacci(counter) < n:
-        sum += Even_Fibonacci(counter)
+        summation += Even_Fibonacci(counter)
         counter += 1
-    return sum
+    return summation
 
 def Even_Fibonacci(n):
     if n == 1: return 2
